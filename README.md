@@ -37,23 +37,23 @@ The goal of these assignments was to apply concepts of Information Retrieval and
 
 ## Recommender System Implementation
 ### Data Cleaning and Preprocessing
-1. Books Table:
+1. **Books Table**:
 * Removed unnecessary columns (e.g., image URLs).
 *Replaced null values and invalid data with appropriate defaults (e.g., mode of publication year).
 * Standardized ISBN values.
-1. Users Table:
+2. **Users Table**:
 * Replaced invalid ages with the mean of valid ages.
 * Split location into city, state, and country columns.
-3. Ratings Table:
+3. **Ratings Table**:
 * Removed invalid and duplicate rows.
 * Ensured data consistency with the Books table.
 
 ### Algorithms Implemented
 A. **Popularity-Based Recommendations**
-    * **Globally Popular Books**: Ranked books by total ratings.
-    * **Location-Based Popularity**: Filtered books by user location and sorted by ratings.
-    * **Author/Publisher-Based Recommendations**: Recommended books by the same author or publisher.
-    * **Yearly Popular Books**: Grouped and ranked books by year of publication.
+   1. **Globally Popular Books**: Ranked books by total ratings.
+   2. **Location-Based Popularity**: Filtered books by user location and sorted by ratings.
+   3. **Author/Publisher-Based Recommendations**: Recommended books by the same author or publisher.
+   4. **Yearly Popular Books**: Grouped and ranked books by year of publication.
 B. **Weighted Average Rating Recommendations**
     * Used a weighted score formula to recommend books with high overall ratings.
 C. **Collaborative Filtering**
