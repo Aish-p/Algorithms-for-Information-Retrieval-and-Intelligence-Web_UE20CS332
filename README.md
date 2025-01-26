@@ -3,11 +3,11 @@
 This repository contains solutions to two assignments:
 
 1. **Assignment 1: Implementation of a Search Engine for a given corpus.**
-2. **Assignment 2: Implementation of a Recommender System based on a dataset of books, users, and ratings.**
-
-The goal of these assignments was to apply concepts of Information Retrieval and Recommender Systems in practical scenarios using relevant data processing and machine learning techniques.
+2. **Assignment 2: Implementation of a Recommender System**
 
 ## Assignment 1: Search Engine Implementation
+This assignment involved developing a search engine capable of retrieving relevant information from a corpus of Twitter tweets. The project focused on applying foundational concepts of Information Retrieval, including indexing, querying, and ranking, to provide accurate and efficient search results.
+
 ### Pre-processing Techniques
 1. **Case Folding**: Converts all characters to lowercase to ensure consistency and reduce redundancy.
 2. **Tokenization**:
@@ -36,6 +36,8 @@ The goal of these assignments was to apply concepts of Information Retrieval and
 
 
 ## Assignment 2: Recommender System Implementation
+This assignment involved developing a Book Recommendation System to suggest books to users based on their interests. The system leverages a dataset of books, user profiles, and ratings to provide personalized recommendations, applying data preprocessing, cleaning techniques, and machine learning concepts to enhance recommendation accuracy.
+
 ### Data Cleaning and Preprocessing
 1. **Books Table**:
 * Removed unnecessary columns (e.g., image URLs).
