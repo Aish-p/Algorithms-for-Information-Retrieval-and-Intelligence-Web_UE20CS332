@@ -54,16 +54,22 @@ A. **Popularity-Based Recommendations**
    2. **Location-Based Popularity**: Filtered books by user location and sorted by ratings.
    3. **Author/Publisher-Based Recommendations**: Recommended books by the same author or publisher.
    4. **Yearly Popular Books**: Grouped and ranked books by year of publication.
+
 B. **Weighted Average Rating Recommendations**
    * Used a weighted score formula to recommend books with high overall ratings.
+
 C. **Collaborative Filtering**
    * Built a user-item matrix and used cosine similarity to recommend books.
+
 D. **Correlation-Based Recommendations**
    * Computed a correlation matrix to find similar books.
+
 E. **Nearest Neighbor Recommendations**
    * Trained a Nearest Neighbors model on sparse matrices of user-book ratings.
+
 F. **Content-Based Recommendations**
    * Used TF-IDF feature vectors for unigrams and bigrams of book titles.
+
 G. **Hybrid Recommendations**
    * Combined content-based and collaborative filtering methods for enhanced recommendations.
 
