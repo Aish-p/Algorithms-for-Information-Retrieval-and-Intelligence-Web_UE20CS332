@@ -35,11 +35,11 @@ The goal of these assignments was to apply concepts of Information Retrieval and
 2. **Likelihood Scoring**: Considers the probability of query terms occurring together in text.
 
 
-## Recommender System Implementation
+## Assignment 2: Recommender System Implementation
 ### Data Cleaning and Preprocessing
 1. **Books Table**:
 * Removed unnecessary columns (e.g., image URLs).
-*Replaced null values and invalid data with appropriate defaults (e.g., mode of publication year).
+* Replaced null values and invalid data with appropriate defaults (e.g., mode of publication year).
 * Standardized ISBN values.
 2. **Users Table**:
 * Replaced invalid ages with the mean of valid ages.
@@ -55,17 +55,17 @@ A. **Popularity-Based Recommendations**
    3. **Author/Publisher-Based Recommendations**: Recommended books by the same author or publisher.
    4. **Yearly Popular Books**: Grouped and ranked books by year of publication.
 B. **Weighted Average Rating Recommendations**
-    * Used a weighted score formula to recommend books with high overall ratings.
+   * Used a weighted score formula to recommend books with high overall ratings.
 C. **Collaborative Filtering**
-    * Built a user-item matrix and used cosine similarity to recommend books.
+   * Built a user-item matrix and used cosine similarity to recommend books.
 D. **Correlation-Based Recommendations**
-    * Computed a correlation matrix to find similar books.
+   * Computed a correlation matrix to find similar books.
 E. **Nearest Neighbor Recommendations**
-    * Trained a Nearest Neighbors model on sparse matrices of user-book ratings.
+   * Trained a Nearest Neighbors model on sparse matrices of user-book ratings.
 F. **Content-Based Recommendations**
-    * Used TF-IDF feature vectors for unigrams and bigrams of book titles.
+   * Used TF-IDF feature vectors for unigrams and bigrams of book titles.
 G. **Hybrid Recommendations**
-    * Combined content-based and collaborative filtering methods for enhanced recommendations.
+   * Combined content-based and collaborative filtering methods for enhanced recommendations.
 
 ### Libraries Used
 * **IPython Notebook**: For interactive coding.
